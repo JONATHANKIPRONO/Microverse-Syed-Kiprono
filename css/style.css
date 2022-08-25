@@ -1,0 +1,37 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #4ac2e7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar-contact-atag {
+    margin-right: 10px;
+    padding: 27px 20px;
+    color:white;
+    text-decoration: none;
+}
+
+#navbar-contact-atag:hover {
+    background-color: #3dabcc;
+}
+
+#welcome-section {
+    background-color: #2c829c;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
